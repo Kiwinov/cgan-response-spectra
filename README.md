@@ -1,5 +1,11 @@
 # Response Spectra generation with CGAN
-Conditional Generative Adversarial Network is used to generate specific response spectra with respect to certain earthquake parameters.
+Conditional Generative Adversarial Network is used to generate response spectra corresponding to a specific earthquake characterised by 6 specific input parameters:
+1. Earthquake Magnitude
+1. Joyner-Boore distance
+1. Logarithm of Joyner-Boore distance
+1. Mechanism Based on Rake Angle
+1. Preferred shear wave velocity (VS30 )
+1. Depth
 
 ## Repository Contents
 1. The primary CGAN file for training and evaluation
@@ -7,3 +13,4 @@ Conditional Generative Adversarial Network is used to generate specific response
 3. Predicted Outputs
 
 ## Model Specifications
+The CGAN model uses two Feed-Forward Neural Networks for generation and discrimination (classification) respectively.
