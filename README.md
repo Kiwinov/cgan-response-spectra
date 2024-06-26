@@ -4,13 +4,12 @@ Conditional Generative Adversarial Network is used to generate response spectra 
 1. Joyner-Boore distance
 1. Logarithm of Joyner-Boore distance
 1. Mechanism Based on Rake Angle
-1. Preferred shear wave velocity (VS30 )
+1. Preferred shear wave velocity ($VS_30$)
 1. Depth
 
-## Repository Contents
-1. The primary CGAN file for training and evaluation
-2. Saved Models
-3. Predicted Outputs
+## Contents
+1. `PyTorch_Conditional_GAN.ipynb` is the Jupyter Notebook used for training, evaluation and generation of Response Spectra
+2. `Earthquake_GM_Prediction.pdf` is the presentation of the project
 
 ## Model Specifications
 The CGAN model uses two Feed-Forward Neural Networks for generation and discrimination (classification) respectively.
