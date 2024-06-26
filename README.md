@@ -4,7 +4,7 @@ Conditional Generative Adversarial Network is used to generate response spectra 
 1. Joyner-Boore distance
 1. Logarithm of Joyner-Boore distance
 1. Mechanism Based on Rake Angle
-1. Preferred shear wave velocity ($VS_30$)
+1. Preferred shear wave velocity ($VS_{30}$)
 1. Depth
 
 ## Contents
